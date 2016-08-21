@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="AutoDataTemplateSelector.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AutoDataTemplateSelector"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <local:AutoDataTemplateSelector x:Key="AutoDataTemplateSelector" />
+        <DataTemplate x:Key="RedViewModel">
+            <Rectangle Width="100" Height="100" Fill="Red" />
+        </DataTemplate>
+        <DataTemplate x:Key="BlueViewModel">
+            <Rectangle Width="100" Height="100" Fill="Blue" />
+        </DataTemplate>
+    </Page.Resources>
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel.Resources>
+            <DataTemplate x:Key="RedViewModel">
+                <Grid Width="100" Height="100" Background="Red">
+                    <TextBlock Text="Overriden red template" />
+                </Grid>
+            </DataTemplate>
+        </StackPanel.Resources>
+        <Button Click="SwitchClick">Switch ViewModels</Button>
+        <ContentControl Width="100" Height="100" Content="{x:Bind CurrentViewModel, Mode=OneWay}" ContentTemplateSelector="{StaticResource AutoDataTemplateSelector}">
+            
+        </ContentControl>
+    </StackPanel>
+</Page>
