@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumBasedComboBox", "EnumBasedComboBox\EnumBasedComboBox.csproj", "{124D32FB-02CE-4E49-BE83-1ED7BC30919F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestComponent", "TestComponent\TestComponent.csproj", "{DF35F398-E0AE-4213-88FD-08CF3924AC03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|ARM.Build.0 = Debug|ARM
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|x64.ActiveCfg = Debug|x64
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|x64.Build.0 = Debug|x64
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|x64.Deploy.0 = Debug|x64
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|x86.ActiveCfg = Debug|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|x86.Build.0 = Debug|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Debug|x86.Deploy.0 = Debug|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|Any CPU.ActiveCfg = Release|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|ARM.ActiveCfg = Release|ARM
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|ARM.Build.0 = Release|ARM
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|ARM.Deploy.0 = Release|ARM
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|x64.ActiveCfg = Release|x64
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|x64.Build.0 = Release|x64
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|x64.Deploy.0 = Release|x64
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|x86.ActiveCfg = Release|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|x86.Build.0 = Release|x86
+		{124D32FB-02CE-4E49-BE83-1ED7BC30919F}.Release|x86.Deploy.0 = Release|x86
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|ARM.Build.0 = Debug|ARM
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|x64.ActiveCfg = Debug|x64
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|x64.Build.0 = Debug|x64
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|x86.ActiveCfg = Debug|x86
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Debug|x86.Build.0 = Debug|x86
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|ARM.ActiveCfg = Release|ARM
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|ARM.Build.0 = Release|ARM
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|x64.ActiveCfg = Release|x64
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|x64.Build.0 = Release|x64
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|x86.ActiveCfg = Release|x86
+		{DF35F398-E0AE-4213-88FD-08CF3924AC03}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
