@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FormsApp"
+             x:Class="FormsApp.MainPage">
+  <Grid Padding="100">
+    <local:PlaceholderPicker VerticalOptions="Center" x:Name="PickerForSearchMode"
+      Title="Search Mode" BackgroundColor="White" >
+      <Picker.Items>
+        <x:String>Mode 1</x:String>
+        <x:String>Mode 2</x:String>
+        <x:String>Mode 3</x:String>
+        <x:String>Mode 4</x:String>
+      </Picker.Items>
+    </local:PlaceholderPicker>
+  </Grid>
+</ContentPage>
