@@ -39,7 +39,14 @@ namespace LoopingMediaElement
 
         private async void Alternate_OnClick(object sender, RoutedEventArgs e)
         {
+            GridContainer.Children.Add(SoundController.loop);
             await SoundController.LoadAndPlayAsync();
+        }
+
+        private async void MediaPlayerClick(object sender, RoutedEventArgs e)
+        {
+            //best approach
+            await SoundController.PlayUsingMediaPlayerAsync();
         }
     }
 }

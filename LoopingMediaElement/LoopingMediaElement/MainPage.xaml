@@ -11,6 +11,7 @@
         <StackPanel>
             <Button Click="ButtonBase_OnClick">Attach to page</Button>
             <Button Click="Alternate_OnClick">Load and play</Button>
+            <Button Click="MediaPlayerClick">Load and play using MediaPlayer</Button>
         </StackPanel>
         <MediaElement x:Name="MediaPlay" Source="ms-appx:///Assets/Click.wav" IsLooping="True" AutoPlay="False" />
     </Grid>
