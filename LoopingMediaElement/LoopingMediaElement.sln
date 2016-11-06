@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopingMediaElement", "LoopingMediaElement\LoopingMediaElement.csproj", "{10CDEF28-DA03-463A-B27F-5A96A19E4333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|ARM.ActiveCfg = Debug|ARM
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|ARM.Build.0 = Debug|ARM
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|ARM.Deploy.0 = Debug|ARM
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|x64.ActiveCfg = Debug|x64
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|x64.Build.0 = Debug|x64
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|x64.Deploy.0 = Debug|x64
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|x86.ActiveCfg = Debug|x86
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|x86.Build.0 = Debug|x86
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Debug|x86.Deploy.0 = Debug|x86
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|ARM.ActiveCfg = Release|ARM
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|ARM.Build.0 = Release|ARM
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|ARM.Deploy.0 = Release|ARM
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|x64.ActiveCfg = Release|x64
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|x64.Build.0 = Release|x64
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|x64.Deploy.0 = Release|x64
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|x86.ActiveCfg = Release|x86
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|x86.Build.0 = Release|x86
+		{10CDEF28-DA03-463A-B27F-5A96A19E4333}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
